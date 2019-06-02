@@ -49,7 +49,7 @@
  ```
  
  <p align="center">
-    <img src="result.png" width="600"\>
+    <img src="image/result.png" width="400"\>
  </p>
  
  ## Ref

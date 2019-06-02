@@ -7,7 +7,8 @@
  
  **WiderFace Dataset:** you need to download [[wider_face]](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html) ,and make sure you place the dataset at right folder,
  
- ```├── WIDER
+ ```
+ ├── WIDER
  
        └── WIDERfacedet
        

@@ -56,7 +56,7 @@ if __name__ == "__main__":
             print("conf:",conf)
             col = (col*np.array([0,0,255]) + (1-col)*np.array([0,0,255])).astype(int)
             col = [int(c) for c in col]
-            cv2.rectangle(im, (box[0], box[1]), (box[2], box[3]), col, 2)
+            cv2.rectangle(im, (box[0], box[1]), (box[2], box[3]), col, 3)
 
 	plt.imshow(cv2.cvtColor(im,cv2.COLOR_RGB2BGR))
 

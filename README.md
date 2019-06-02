@@ -48,8 +48,10 @@
  python scripts/test_on_examples.py model/yufacedetectnet-open-v2.prototxt model/ssdfacedet_iter_9000.caffemodel image/
  ```
  
+ note: yufacedetectnet-open-v2.prototxt is design for detecting 35x35 min_face_size in 1080P 
+ 
  <p align="center">
-    <img src="image/result.png" width="400"\>
+    <img src="image/result.png" width="600"\>
  </p>
  
  ## Ref

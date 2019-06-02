@@ -5,7 +5,7 @@
 
  **Caffe-SSD:** caffe-ssd you can find at [[here]](https://github.com/weiliu89/caffe))
  
- **WiderFace Dataset:** you need to download [[wider_face]](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html) ,and make sure you place the dataset at right folder,
+ **WiderFace Dataset:** you need to download [wider_face](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html) ,and make sure you place the dataset at right folder,
  
  ```
  ├── WIDER
@@ -59,9 +59,9 @@
  
  There are two respositories this project reference to
  
- **model:** [[libfacedetection]](https://github.com/ShiqiYu/libfacedetection)
+ **model:** [libfacedetection](https://github.com/ShiqiYu/libfacedetection)
  
- **script:** [[MobilenetSSDFace]](https://github.com/BeloborodovDS/MobilenetSSDFace)
+ **script:** [MobilenetSSDFace](https://github.com/BeloborodovDS/MobilenetSSDFace)
  
  
  

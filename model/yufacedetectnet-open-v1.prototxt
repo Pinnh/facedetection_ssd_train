@@ -1,5 +1,8 @@
 name: "YuFaceDetectNet"
 
+#mean 103.94, 116.78, 123.68
+#var 1.0
+
 input: "data"
 
 input_shape {

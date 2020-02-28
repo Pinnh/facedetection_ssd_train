@@ -19,6 +19,7 @@
  Before you start to train, you need to modify some paths in Makefile
  
  **wider_dir:** the path point to WIDER, e.g. /pathxxx/WIDER
+ 
  **caffe_dir:** the path point to caffe-ssd directory, e.g. /pathxxx/caffe-ssd
  
  ## Train

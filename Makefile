@@ -29,9 +29,9 @@ wider_lmdb: wider_xml
 	$(wider_dir) $(wider_dir)/test.txt $(wider_dir)/WIDER_val/lmdb/wider_test_lmdb \
 	./data \
 
-# TRAIN -weights model/yufacedetectnet-open-v1.caffemodel
+# TRAIN finetune with pretrained model 
 train:
-	$(caffe_exec) train -solver solver_train.prototxt -weights model/snapshot/ssdfacedet_iter_3500.caffemodel 2>&1 | \
+	$(caffe_exec) train -solver solver_train.prototxt -weights model/ssdfacedet_iter_9000.caffemodel 2>&1 | \
 	tee `cat solver_train.prototxt | grep snapshot_prefix | grep -o \".* | tr -d \"`_log.txt
 resume:
 	$(caffe_exec) train -solver solver_train.prototxt -snapshot `cat snapshot.txt` 2>&1 | \

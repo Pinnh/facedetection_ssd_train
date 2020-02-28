@@ -45,6 +45,8 @@ def parse_wider(text, path, train_im_path, min_face=30, min_ratio=0.031, max_blu
         if (im_ratio<min_im_ratio) or (im_ratio>max_im_ratio):
             check = False
         for j in range(num):
+	    if "/" in data[i]:
+                continue
             face = data[i].split()
             face = [int(e) for e in face]
             x,y,w,h,blur = face[:5]
@@ -69,7 +71,7 @@ def parse_wider(text, path, train_im_path, min_face=30, min_ratio=0.031, max_blu
             h=height-y if h>height-y else h
             
             ratio = 1.0*max(w,h)/max(width, height)
-            if (min_wh>=min_face) and (ratio>=min_ratio) and occlusion<=1:
+            if (min_wh>=min_face) and (ratio>=min_ratio):# and occlusion<=1:
                 faces.append([x,y,x+w,y+h])
             elif all_valid:
                 check = False

@@ -9,25 +9,17 @@
  
  ```
  ├── WIDER
- 
-       └── WIDERfacedet
-       
-              ├── wider_face_split
+       ├── wider_face_split
               
-              ├── WIDER_train
+       ├── WIDER_train
               
-              └── WIDER_val     
+       └── WIDER_val     
  ```
                      
  Before you start to train, you need to modify some paths in Makefile
  
- **data_dir:** the path point to WIDER, /pathxxx/WIDER
- 
- **wider_dir:** the path point to WIDERfacedet, /pathxxx/WIDER/WIDERfacedet
- 
- **lmdb_pyscript:** the path of caffe create_annoset.py, /pathxxx/caffe/scripts/create_annoset.py
- 
- **caffe_exec:** the caffe execute file, /pathxxx/caffe/build/tools/caffe
+ **wider_dir:** the path point to WIDER, e.g. /pathxxx/WIDER
+ **caffe_dir:** the path point to caffe-ssd directory, e.g. /pathxxx/caffe-ssd
  
  ## Train
  

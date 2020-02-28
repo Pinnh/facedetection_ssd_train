@@ -1,4 +1,4 @@
-# SSDFaceTrain
+# facedetection_ssd_train
  Caffe SSD Face Detector Training Script
 
 ## Requires
